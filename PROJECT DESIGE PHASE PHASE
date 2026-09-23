@@ -1,1 +1,129 @@
+# Project Design Phase
+
+## Project Title: ComicCraft – AI Comic Story Creator Using Gemini Models
+
+### 1. Introduction
+
+The project design phase explains the overall structure, architecture, modules, and workflow of the ComicCraft application.
+
+ComicCraft is an AI-powered comic story creator that uses Google Gemini models to transform user ideas into creative comic stories. It helps users generate storylines, characters, dialogues, and comic panel descriptions through a simple and interactive interface.
+
+The main objective of this phase is to design a system that is easy to use, efficient, and capable of supporting AI-based comic story creation.
+
+**GitHub Repository:** ComicCraft – AI Comic Story Creator Using Gemini Models.
+
+
+### 2. System Architecture Design
+
+ComicCraft is designed using a modular architecture with three major layers:
+
+1. **Frontend Layer:** Provides the interface for entering story prompts, selecting genres, and viewing comic panels.
+2. **Backend Layer:** Processes user inputs, communicates with the Gemini API, and manages generated content.
+3. **AI Layer:** Generates storylines, character descriptions, dialogues, and comic scene descriptions.
+
+The design follows a structured AI comic-generation workflow, where story and panel information can be organized into structured data before visual generation. ([github.com][1])
+
+[1]: https://github.com/Dapeng960208/AI-Comic-Generator?utm_source=chatgpt.com "GitHub - Dapeng960208/AI-Comic-Generator: An open-source AI-powered manga creation tool that transforms text stories into fully illustrated comics using Google Gemini models. Features include automatic storyboard generation, character consistency checks, and a visual editor. · GitHub"
+
+
+### 3. System Architecture Diagram
+
+```text
+             +----------------------+
+             |        USER          |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |  ComicCraft Frontend |
+             | Prompt & Genre Input |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |    Backend Server    |
+             |  Request Processing  |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |     Gemini API       |
+             |   AI Story Creation  |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             | Story & Panel Data   |
+             | Characters, Dialogue |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             | Comic Preview Module |
+             +----------+-----------+
+                        |
+                        v
+             +----------------------+
+             |   Save / Export      |
+             +----------------------+
+```
+
+### 4. Module Design
+
+| Module                     | Description                                                  |
+| -------------------------- | ------------------------------------------------------------ |
+| User Interface Module      | Provides an interface for users to interact with ComicCraft. |
+| Prompt Input Module        | Collects story ideas, genre, and user preferences.           |
+| AI Story Generation Module | Uses Gemini models to generate comic storylines.             |
+| Character Creation Module  | Generates character names, personalities, and descriptions.  |
+| Panel Generation Module    | Divides the story into individual comic scenes.              |
+| Dialogue Generation Module | Creates dialogues and narration for comic panels.            |
+| Comic Preview Module       | Displays the generated story in a comic-style layout.        |
+| Export Module              | Allows users to save or download the completed comic.        |
+
+
+### 5. Data Flow Design
+
+The data flow explains how information moves through the ComicCraft application.
+
+1. The user enters a story prompt and selects a genre.
+2. The frontend sends the input to the backend.
+3. The backend sends the prompt to the Gemini API.
+4. Gemini generates the story, characters, and dialogues.
+5. The generated story is organized into comic panels.
+6. The frontend displays the comic for preview and editing.
+7. The user can save or export the completed comic.
+
+### 6. Database Design
+
+The following database structure can be used to store comic projects.
+
+| Table Name | Fields                                            |
+| ---------- | ------------------------------------------------- |
+| Users      | User_ID, Name, Email                              |
+| Comics     | Comic_ID, User_ID, Title, Genre                   |
+| Characters | Character_ID, Comic_ID, Name, Description         |
+| Panels     | Panel_ID, Comic_ID, Panel_Number, Scene, Dialogue |
+| Images     | Image_ID, Panel_ID, Image_Path                    |
+
+### 7. User Interface Design
+
+The proposed ComicCraft interface includes:
+
+* **Home Page:** Displays the project title and Start Creating option.
+* **Story Input Page:** Allows users to enter a story prompt.
+* **Genre Selection Page:** Provides different comic genres and styles.
+* **Story Generation Page:** Displays AI-generated story content.
+* **Comic Preview Page:** Shows comic panels, characters, and dialogues.
+* **Export Page:** Allows users to save or download the final comic.
+
+### 8. Expected Design Outcome
+
+The project design phase provides a blueprint for implementing ComicCraft. It defines the system architecture, functional modules, data flow, database structure, and user interface.
+
+The proposed design enables users to transform simple ideas into AI-generated comic stories using Gemini models, with options to preview, customize, and export the final output.
+
+**Project Repository:** [ComicCraft – GitHub Repository](https://github.com/naveen7209b-eng/comiccraft---Ai-comic-story-creator-using-gemini-Models/tree/main?utm_source=chatgpt.com)
+
+*Note: This is a proposed project-design document. The architecture and technology details should be verified against the actual source code before submitting it as an implementation-specific report.*
 
