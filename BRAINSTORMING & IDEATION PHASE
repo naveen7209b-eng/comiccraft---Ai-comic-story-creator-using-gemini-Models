@@ -1,1 +1,76 @@
+# Brainstorming & Ideation Phase
+
+## Project: ComicCraft – AI Comic Story Creator Using Gemini Models
+
+### 1. Project Overview
+
+**ComicCraft** is an AI-powered comic story creation platform that uses Google Gemini models to help users generate creative comic stories, characters, dialogues, and scene descriptions.
+
+The system allows users to enter a story idea or prompt and transforms it into a structured comic with multiple panels, character dialogues, and AI-generated visuals.
+
+The main goal is to make comic creation simple, creative, and accessible to everyone, including beginners, students, and aspiring storytellers.
+
+
+### 2. Brainstorming Ideas
+
+During the brainstorming phase, different ideas were explored to develop an AI-based comic creation system.
+
+| No. | Brainstorming Idea     | Description                                                            |
+| --- | ---------------------- | ---------------------------------------------------------------------- |
+| 1   | AI Story Generator     | Generate comic stories from user prompts.                              |
+| 2   | AI Character Creator   | Create unique characters with different personalities and appearances. |
+| 3   | Comic Panel Generator  | Divide stories into multiple comic panels.                             |
+| 4   | AI Dialogue Generator  | Generate conversations between characters.                             |
+| 5   | AI Scene Generator     | Create visual descriptions for each comic scene.                       |
+| 6   | Multiple Genre Support | Generate horror, comedy, fantasy, adventure, and romance stories.      |
+| 7   | Comic Customization    | Allow users to edit stories, dialogues, and characters.                |
+| 8   | Comic Export           | Download the final comic as a PDF or image.                            |
+
+### 3. Problem Identification
+
+Creating comics manually requires storytelling skills, artistic ability, time, and effort. Beginners may find it difficult to develop characters, write dialogues, and design comic panels.
+
+**Proposed Solution:**
+ComicCraft uses Gemini models to automate story generation, character development, dialogue creation, and comic panel planning through a simple and user-friendly interface.
+
+### 4. Ideation – Proposed Features
+
+The following features were selected for the ComicCraft project:
+
+* **Prompt-Based Story Creation:** Users enter a simple idea to generate a comic story.
+* **AI-Powered Story Development:** Gemini generates a structured story with a beginning, middle, and ending.
+* **Character Creation:** Generate character names, descriptions, and personalities.
+* **Panel-by-Panel Generation:** Divide the story into comic scenes with dialogues.
+* **AI Image Generation:** Generate comic illustrations using a compatible image-generation model.
+* **Story Editing:** Allow users to modify the generated story and dialogues.
+* **Comic Preview and Export:** Preview the final comic and download it.
+
+### 5. How Gemini Models Are Used
+
+| Gemini Application             | Purpose                                                               |
+| ------------------------------ | --------------------------------------------------------------------- |
+| Gemini text generation         | Generate creative comic stories.                                      |
+| Gemini reasoning               | Develop plot structure and character relationships.                   |
+| Gemini multimodal capabilities | Interpret user-provided images or visual references, where supported. |
+| Gemini structured output       | Organize stories into panels, dialogues, and scene descriptions.      |
+
+*Note: Actual image generation may require a compatible image-generation model, such as Google's Imagen or Gemini image-generation capabilities, depending on the available API.*
+
+### 6. Proposed Workflow
+
+**User Input → Story Generation → Character Creation → Panel Division → Dialogue Generation → Comic Illustration → Comic Preview → Export**
+
+### 7. Target Users
+
+* Students and educators
+* Comic book enthusiasts
+* Creative writers
+* Beginner artists
+* Digital content creators
+
+### 8. Final Ideation Outcome
+
+The brainstorming and ideation phase resulted in the concept of **ComicCraft – AI Comic Story Creator Using Gemini Models**.
+
+The proposed application combines AI storytelling, character creation, dialogue generation, and comic panel organization into a single platform. It aims to reduce the time and effort required to create comics while encouraging creativity and imagination.
 
